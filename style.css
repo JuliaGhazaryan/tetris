@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(231, 169, 181, 0.7);
+  color: rgb(245, 236, 236);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#game {
+  padding-top: 20px;
+  font-size: 40px;
+  width: 320px;
+  margin: auto;
+}
+
+.main {
+  width: 320px;
+  height: 620px;
+  margin: 20px auto 0;
+  border: 10px solid rgb(49, 48, 48, 0.4);
+  font-size: 0;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(57, 53, 53);
+  display: inline-block;
+  background-color:rgb(250, 235, 215, 0.7)
+}
+
+.movingCell {
+  background-color: blue;
+}
+
+.fixedCell {
+  background-color: green;
+}
+
+
+
+#game-over {
+  font-size: 100px;
+  color: rgb(128, 0, 0);
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
